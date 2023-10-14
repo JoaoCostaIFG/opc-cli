@@ -1,0 +1,50 @@
+{
+  "progId": "Matrikon.OPC.Simulation.1",
+  "debug": true,
+  "influx": {
+    "url": "http://localhost:8086",
+    "token": "token",
+    "org": "opc",
+    "bucket": "opc"
+  },
+  "items": [
+    {
+      "node": "Random.Int1",
+      "name": "Int1"
+    },
+    {
+      "node": "Random.Int2",
+      "name": "Int2"
+    },
+    {
+      "node": "Random.Int3",
+      "name": "Int3"
+    },
+    {
+      "node": "Random.Int4",
+      "name": "Int4"
+    },
+
+    {
+      "node": "Random.Real4",
+      "name": "Real4"
+    },
+    {
+      "node": "Random.Real8",
+      "name": "Real8"
+    },
+
+    {
+      "node": "Random.UInt1",
+      "name": "UInt1"
+    },
+    {
+      "node": "Random.UInt2",
+      "name": "UInt2"
+    },
+    {
+      "node": "Random.UInt4",
+      "name": "UInt4"
+    }
+  ]
+}
